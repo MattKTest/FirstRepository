@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>ArthrexAPI 2.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>ArthrexAPI Aggregate.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>ArthrexAPI.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>C689E6B51790959B00483640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C689E6DE1790959B00483640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C689E7151790973800483640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C689E72817909BC500483640</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -6,24 +6,41 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		C689E72817909BC500483640 /* ArthrexAPI Aggregate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = C689E72917909BC500483640 /* Build configuration list for PBXAggregateTarget "ArthrexAPI Aggregate" */;
+			buildPhases = (
+				C689E72C17909C0000483640 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = "ArthrexAPI Aggregate";
+			productName = "ArthrexAPI Aggregate";
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		C689E6BA1790959B00483640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6B91790959B00483640 /* UIKit.framework */; };
 		C689E6BC1790959B00483640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6BB1790959B00483640 /* Foundation.framework */; };
 		C689E6BE1790959B00483640 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6BD1790959B00483640 /* CoreGraphics.framework */; };
-		C689E6C41790959B00483640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C689E6C21790959B00483640 /* InfoPlist.strings */; };
-		C689E6C61790959B00483640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E6C51790959B00483640 /* main.m */; };
-		C689E6CA1790959B00483640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E6C91790959B00483640 /* AppDelegate.m */; };
-		C689E6CC1790959B00483640 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6CB1790959B00483640 /* Default.png */; };
-		C689E6CE1790959B00483640 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6CD1790959B00483640 /* Default@2x.png */; };
-		C689E6D01790959B00483640 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6CF1790959B00483640 /* Default-568h@2x.png */; };
-		C689E6D31790959B00483640 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689E6D11790959B00483640 /* MainStoryboard_iPhone.storyboard */; };
-		C689E6D61790959B00483640 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689E6D41790959B00483640 /* MainStoryboard_iPad.storyboard */; };
-		C689E6D91790959B00483640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E6D81790959B00483640 /* ViewController.m */; };
 		C689E6E11790959B00483640 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6E01790959B00483640 /* SenTestingKit.framework */; };
 		C689E6E21790959B00483640 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6B91790959B00483640 /* UIKit.framework */; };
 		C689E6E31790959B00483640 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E6BB1790959B00483640 /* Foundation.framework */; };
 		C689E6EB1790959B00483640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C689E6E91790959B00483640 /* InfoPlist.strings */; };
 		C689E6EE1790959B00483640 /* ArthrexAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E6ED1790959B00483640 /* ArthrexAPITests.m */; };
+		C689E708179095E000483640 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E6F9179095E000483640 /* AppDelegate.m */; };
+		C689E70A179095E000483640 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6FC179095E000483640 /* Default-568h@2x.png */; };
+		C689E70B179095E000483640 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6FD179095E000483640 /* Default.png */; };
+		C689E70C179095E000483640 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C689E6FE179095E000483640 /* Default@2x.png */; };
+		C689E70D179095E000483640 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C689E6FF179095E000483640 /* InfoPlist.strings */; };
+		C689E70E179095E000483640 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689E701179095E000483640 /* MainStoryboard_iPad.storyboard */; };
+		C689E70F179095E000483640 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C689E703179095E000483640 /* MainStoryboard_iPhone.storyboard */; };
+		C689E710179095E000483640 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E705179095E000483640 /* main.m */; };
+		C689E711179095E000483640 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E707179095E000483640 /* ViewController.m */; };
+		C689E7181790973800483640 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C689E7171790973800483640 /* CoreFoundation.framework */; };
+		C689E7251790975900483640 /* ArthrexAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = C689E7241790975900483640 /* ArthrexAPI.m */; };
+		C689E72717909AC300483640 /* ArthrexAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = C689E7231790975900483640 /* ArthrexAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,29 +54,33 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C689E6B61790959B00483640 /* ArthrexAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArthrexAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689E6B61790959B00483640 /* ArthrexAPI App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ArthrexAPI App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C689E6B91790959B00483640 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C689E6BB1790959B00483640 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C689E6BD1790959B00483640 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		C689E6C11790959B00483640 /* ArthrexAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArthrexAPI-Info.plist"; sourceTree = "<group>"; };
-		C689E6C31790959B00483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		C689E6C51790959B00483640 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C689E6C71790959B00483640 /* ArthrexAPI-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArthrexAPI-Prefix.pch"; sourceTree = "<group>"; };
-		C689E6C81790959B00483640 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		C689E6C91790959B00483640 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		C689E6CB1790959B00483640 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		C689E6CD1790959B00483640 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		C689E6CF1790959B00483640 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		C689E6D21790959B00483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
-		C689E6D51790959B00483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
-		C689E6D71790959B00483640 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		C689E6D81790959B00483640 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C689E6DF1790959B00483640 /* ArthrexAPITests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthrexAPITests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C689E6E01790959B00483640 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		C689E6E81790959B00483640 /* ArthrexAPITests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ArthrexAPITests-Info.plist"; sourceTree = "<group>"; };
 		C689E6EA1790959B00483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C689E6EC1790959B00483640 /* ArthrexAPITests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ArthrexAPITests.h; sourceTree = "<group>"; };
 		C689E6ED1790959B00483640 /* ArthrexAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ArthrexAPITests.m; sourceTree = "<group>"; };
+		C689E6F8179095E000483640 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C689E6F9179095E000483640 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C689E6FA179095E000483640 /* ArthrexAPI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ArthrexAPI-Info.plist"; sourceTree = "<group>"; };
+		C689E6FB179095E000483640 /* ArthrexAPI-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ArthrexAPI-Prefix.pch"; sourceTree = "<group>"; };
+		C689E6FC179095E000483640 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C689E6FD179095E000483640 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C689E6FE179095E000483640 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C689E700179095E000483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C689E702179095E000483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		C689E704179095E000483640 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		C689E705179095E000483640 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C689E706179095E000483640 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C689E707179095E000483640 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C689E7161790973800483640 /* ArthrexAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArthrexAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C689E7171790973800483640 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		C689E7231790975900483640 /* ArthrexAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ArthrexAPI.h; sourceTree = "<group>"; };
+		C689E7241790975900483640 /* ArthrexAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ArthrexAPI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,14 +104,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C689E7131790973800483640 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689E7181790973800483640 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C689E6AD1790959B00483640 = {
 			isa = PBXGroup;
 			children = (
-				C689E6BF1790959B00483640 /* ArthrexAPI */,
+				C689E6F7179095E000483640 /* ArthrexAPI App */,
 				C689E6E61790959B00483640 /* ArthrexAPITests */,
+				C689E7191790973800483640 /* ArthrexAPI */,
 				C689E6B81790959B00483640 /* Frameworks */,
 				C689E6B71790959B00483640 /* Products */,
 			);
@@ -99,8 +129,9 @@
 		C689E6B71790959B00483640 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C689E6B61790959B00483640 /* ArthrexAPI.app */,
+				C689E6B61790959B00483640 /* ArthrexAPI App.app */,
 				C689E6DF1790959B00483640 /* ArthrexAPITests.octest */,
+				C689E7161790973800483640 /* ArthrexAPI.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -112,36 +143,9 @@
 				C689E6BB1790959B00483640 /* Foundation.framework */,
 				C689E6BD1790959B00483640 /* CoreGraphics.framework */,
 				C689E6E01790959B00483640 /* SenTestingKit.framework */,
+				C689E7171790973800483640 /* CoreFoundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		C689E6BF1790959B00483640 /* ArthrexAPI */ = {
-			isa = PBXGroup;
-			children = (
-				C689E6C81790959B00483640 /* AppDelegate.h */,
-				C689E6C91790959B00483640 /* AppDelegate.m */,
-				C689E6D11790959B00483640 /* MainStoryboard_iPhone.storyboard */,
-				C689E6D41790959B00483640 /* MainStoryboard_iPad.storyboard */,
-				C689E6D71790959B00483640 /* ViewController.h */,
-				C689E6D81790959B00483640 /* ViewController.m */,
-				C689E6C01790959B00483640 /* Supporting Files */,
-			);
-			path = ArthrexAPI;
-			sourceTree = "<group>";
-		};
-		C689E6C01790959B00483640 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				C689E6C11790959B00483640 /* ArthrexAPI-Info.plist */,
-				C689E6C21790959B00483640 /* InfoPlist.strings */,
-				C689E6C51790959B00483640 /* main.m */,
-				C689E6C71790959B00483640 /* ArthrexAPI-Prefix.pch */,
-				C689E6CB1790959B00483640 /* Default.png */,
-				C689E6CD1790959B00483640 /* Default@2x.png */,
-				C689E6CF1790959B00483640 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		C689E6E61790959B00483640 /* ArthrexAPITests */ = {
@@ -163,12 +167,60 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		C689E6F7179095E000483640 /* ArthrexAPI App */ = {
+			isa = PBXGroup;
+			children = (
+				C689E6F8179095E000483640 /* AppDelegate.h */,
+				C689E6F9179095E000483640 /* AppDelegate.m */,
+				C689E6FA179095E000483640 /* ArthrexAPI-Info.plist */,
+				C689E6FB179095E000483640 /* ArthrexAPI-Prefix.pch */,
+				C689E6FC179095E000483640 /* Default-568h@2x.png */,
+				C689E6FD179095E000483640 /* Default.png */,
+				C689E6FE179095E000483640 /* Default@2x.png */,
+				C689E6FF179095E000483640 /* InfoPlist.strings */,
+				C689E701179095E000483640 /* MainStoryboard_iPad.storyboard */,
+				C689E703179095E000483640 /* MainStoryboard_iPhone.storyboard */,
+				C689E705179095E000483640 /* main.m */,
+				C689E706179095E000483640 /* ViewController.h */,
+				C689E707179095E000483640 /* ViewController.m */,
+			);
+			path = "ArthrexAPI App";
+			sourceTree = "<group>";
+		};
+		C689E7191790973800483640 /* ArthrexAPI */ = {
+			isa = PBXGroup;
+			children = (
+				C689E71A1790973800483640 /* Supporting Files */,
+				C689E7231790975900483640 /* ArthrexAPI.h */,
+				C689E7241790975900483640 /* ArthrexAPI.m */,
+			);
+			path = ArthrexAPI;
+			sourceTree = "<group>";
+		};
+		C689E71A1790973800483640 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		C689E72617909A9500483640 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689E72717909AC300483640 /* ArthrexAPI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		C689E6B51790959B00483640 /* ArthrexAPI */ = {
+		C689E6B51790959B00483640 /* ArthrexAPI App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C689E6F11790959B00483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI" */;
+			buildConfigurationList = C689E6F11790959B00483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI App" */;
 			buildPhases = (
 				C689E6B21790959B00483640 /* Sources */,
 				C689E6B31790959B00483640 /* Frameworks */,
@@ -178,9 +230,9 @@
 			);
 			dependencies = (
 			);
-			name = ArthrexAPI;
+			name = "ArthrexAPI App";
 			productName = ArthrexAPI;
-			productReference = C689E6B61790959B00483640 /* ArthrexAPI.app */;
+			productReference = C689E6B61790959B00483640 /* ArthrexAPI App.app */;
 			productType = "com.apple.product-type.application";
 		};
 		C689E6DE1790959B00483640 /* ArthrexAPITests */ = {
@@ -200,6 +252,24 @@
 			name = ArthrexAPITests;
 			productName = ArthrexAPITests;
 			productReference = C689E6DF1790959B00483640 /* ArthrexAPITests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C689E7151790973800483640 /* ArthrexAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C689E7201790973800483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI" */;
+			buildPhases = (
+				C689E7121790973800483640 /* Sources */,
+				C689E7131790973800483640 /* Frameworks */,
+				C689E7141790973800483640 /* Resources */,
+				C689E72617909A9500483640 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArthrexAPI;
+			productName = ArthrexAPI;
+			productReference = C689E7161790973800483640 /* ArthrexAPI.framework */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -223,8 +293,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C689E6B51790959B00483640 /* ArthrexAPI */,
+				C689E6B51790959B00483640 /* ArthrexAPI App */,
 				C689E6DE1790959B00483640 /* ArthrexAPITests */,
+				C689E7151790973800483640 /* ArthrexAPI */,
+				C689E72817909BC500483640 /* ArthrexAPI Aggregate */,
 			);
 		};
 /* End PBXProject section */
@@ -234,12 +306,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C689E6C41790959B00483640 /* InfoPlist.strings in Resources */,
-				C689E6CC1790959B00483640 /* Default.png in Resources */,
-				C689E6CE1790959B00483640 /* Default@2x.png in Resources */,
-				C689E6D01790959B00483640 /* Default-568h@2x.png in Resources */,
-				C689E6D31790959B00483640 /* MainStoryboard_iPhone.storyboard in Resources */,
-				C689E6D61790959B00483640 /* MainStoryboard_iPad.storyboard in Resources */,
+				C689E70A179095E000483640 /* Default-568h@2x.png in Resources */,
+				C689E70B179095E000483640 /* Default.png in Resources */,
+				C689E70C179095E000483640 /* Default@2x.png in Resources */,
+				C689E70D179095E000483640 /* InfoPlist.strings in Resources */,
+				C689E70E179095E000483640 /* MainStoryboard_iPad.storyboard in Resources */,
+				C689E70F179095E000483640 /* MainStoryboard_iPhone.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +320,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C689E6EB1790959B00483640 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C689E7141790973800483640 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +346,19 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		C689E72C17909C0000483640 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Sets the target folders and the final framework product.\nFMK_NAME=ArthrexAPI\nFMK_VERSION=A\n\n# Install dir will be the final output to the framework.\n# The following line create it in the root folder of the current project.\nINSTALL_DIR=${SRCROOT}/Products/${FMK_NAME}.framework\n\n# Working dir will be deleted after the framework creation.\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n\n# Building both architectures.\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphoneos\nxcodebuild -configuration \"Release\" -target \"${FMK_NAME}\" -sdk iphonesimulator\n\n# Cleaning the oldest.\nif [ -d \"${INSTALL_DIR}\" ]\nthen\nrm -rf \"${INSTALL_DIR}\"\nfi\n\n# Creates and renews the final product folder.\nmkdir -p \"${INSTALL_DIR}\"\n# mkdir -p \"${INSTALL_DIR}/Versions\"\n# mkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}\"\n# mkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources\"\n# mkdir -p \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers\"\n\n# Creates the internal links.\n# It MUST uses relative path, otherwise will not work when the folder is copied/moved.\n# ln -s \"${FMK_VERSION}\" \"${INSTALL_DIR}/Versions/Current\"\n# ln -s \"Versions/Current/Headers\" \"${INSTALL_DIR}/Headers\"\n# ln -s \"Versions/Current/Resources\" \"${INSTALL_DIR}/Resources\"\n# ln -s \"Versions/Current/${FMK_NAME}\" \"${INSTALL_DIR}/${FMK_NAME}\"\n\nmkdir -p \"${INSTALL_DIR}/Headers\"\nmkdir -p \"${INSTALL_DIR}/Resources\"\n\n# Copies the headers and resources files to the final product folder.\n# cp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Headers/\"\n# cp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/\"\n\ncp -R \"${DEVICE_DIR}/Headers/\" \"${INSTALL_DIR}/Headers/\"\ncp -R \"${DEVICE_DIR}/\" \"${INSTALL_DIR}/Resources/\"\n\n# Removes the binary and header from the resources folder.\n# rm -r \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/Headers\" \"${INSTALL_DIR}/Versions/${FMK_VERSION}/Resources/${FMK_NAME}\"\n\nrm -r \"${INSTALL_DIR}/Resources/Headers\" \"${INSTALL_DIR}/Resources/${FMK_NAME}\"\n\n# Uses the Lipo Tool to merge both binary files (i386 + armv6/armv7) into one Universal final product.\n#lipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/Versions/${FMK_VERSION}/${FMK_NAME}\"\n\nlipo -create \"${DEVICE_DIR}/${FMK_NAME}\" \"${SIMULATOR_DIR}/${FMK_NAME}\" -output \"${INSTALL_DIR}/${FMK_NAME}\"\n\nrm -r \"${WRK_DIR}\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -274,9 +366,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C689E6C61790959B00483640 /* main.m in Sources */,
-				C689E6CA1790959B00483640 /* AppDelegate.m in Sources */,
-				C689E6D91790959B00483640 /* ViewController.m in Sources */,
+				C689E708179095E000483640 /* AppDelegate.m in Sources */,
+				C689E710179095E000483640 /* main.m in Sources */,
+				C689E711179095E000483640 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,47 +380,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		C689E7121790973800483640 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C689E7251790975900483640 /* ArthrexAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
 		C689E6E51790959B00483640 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C689E6B51790959B00483640 /* ArthrexAPI */;
+			target = C689E6B51790959B00483640 /* ArthrexAPI App */;
 			targetProxy = C689E6E41790959B00483640 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		C689E6C21790959B00483640 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C689E6C31790959B00483640 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		C689E6D11790959B00483640 /* MainStoryboard_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C689E6D21790959B00483640 /* en */,
-			);
-			name = MainStoryboard_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		C689E6D41790959B00483640 /* MainStoryboard_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				C689E6D51790959B00483640 /* en */,
-			);
-			name = MainStoryboard_iPad.storyboard;
-			sourceTree = "<group>";
-		};
 		C689E6E91790959B00483640 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				C689E6EA1790959B00483640 /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C689E6FF179095E000483640 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C689E700179095E000483640 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C689E701179095E000483640 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C689E702179095E000483640 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		C689E703179095E000483640 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C689E704179095E000483640 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -396,8 +496,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ArthrexAPI/ArthrexAPI-Prefix.pch";
-				INFOPLIST_FILE = "ArthrexAPI/ArthrexAPI-Info.plist";
+				GCC_PREFIX_HEADER = "ArthrexAPI App/ArthrexAPI-Prefix.pch";
+				INFOPLIST_FILE = "ArthrexAPI App/ArthrexAPI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -407,8 +507,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ArthrexAPI/ArthrexAPI-Prefix.pch";
-				INFOPLIST_FILE = "ArthrexAPI/ArthrexAPI-Info.plist";
+				GCC_PREFIX_HEADER = "ArthrexAPI App/ArthrexAPI-Prefix.pch";
+				INFOPLIST_FILE = "ArthrexAPI App/ArthrexAPI-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -448,6 +548,71 @@
 			};
 			name = Release;
 		};
+		C689E7211790973800483640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ArthrexAPI/ArthrexAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		C689E7221790973800483640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEAD_CODE_STRIPPING = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				INFOPLIST_FILE = "ArthrexAPI/ArthrexAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				LINK_WITH_STANDARD_LIBRARIES = NO;
+				MACH_O_TYPE = mh_object;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos6.1;
+				VALID_ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		C689E72A17909BC500483640 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C689E72B17909BC500483640 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -460,7 +625,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C689E6F11790959B00483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI" */ = {
+		C689E6F11790959B00483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C689E6F21790959B00483640 /* Debug */,
@@ -473,6 +638,22 @@
 			buildConfigurations = (
 				C689E6F51790959B00483640 /* Debug */,
 				C689E6F61790959B00483640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C689E7201790973800483640 /* Build configuration list for PBXNativeTarget "ArthrexAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C689E7211790973800483640 /* Debug */,
+				C689E7221790973800483640 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C689E72917909BC500483640 /* Build configuration list for PBXAggregateTarget "ArthrexAPI Aggregate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C689E72A17909BC500483640 /* Debug */,
+				C689E72B17909BC500483640 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
